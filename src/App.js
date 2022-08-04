@@ -26,8 +26,8 @@ const links = [
 export default function App() {
   return (
     <div className="max-w-screen max-h-screen font-mono cursor-default antialiased">
-      <div className="flex flex-col justify-around items-center my-10">
-        <div className="space-y-10 flex flex-col items-center">
+      <div className="flex flex-col justify-center items-center my-10">
+        <div className="space-y-10 flex flex-col items-center justify-center">
           <div className="h-full flex items-center justify-center my-5">
             <div className="rounded-full h-20 w-20 relative bg-gray-800 animate-ping transition-all duration-300"></div>
             <div className="rounded-full absolute flex">
@@ -41,7 +41,7 @@ export default function App() {
             </p>
           </div>
         </div>
-        <div className="w-1/2 text-center my-7 flex flex-col space-y-7">
+        <div className="flex flex-col text-center w-full justify-center items-center my-7 space-y-7">
           {links.map((link) => (
             <a href={link.url} className="btn">
               {link.name}

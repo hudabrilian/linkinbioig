@@ -4,6 +4,6 @@
 
 @layer components {
   .btn {
-    @apply bg-neutral-700 max-w-3xl text-white rounded-xl shadow-lg py-5 cursor-pointer hover:bg-neutral-800 hover:scale-105 transition-all hover:animate-pulse;
+    @apply bg-neutral-700 w-1/2 max-w-3xl text-white rounded-xl shadow-lg py-5 cursor-pointer hover:bg-neutral-800 hover:scale-105 transition-all hover:animate-pulse;
   }
 }
