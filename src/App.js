@@ -1,27 +1,5 @@
 import React from "react";
-
-const links = [
-  {
-    name: "ma Instagram",
-    url: "https://instagram.com/hudabrilians",
-  },
-  {
-    name: "ma luv Instagram",
-    url: "https://instagram.com/pomi_nar",
-  },
-  {
-    name: "Linkedin",
-    url: "https://www.linkedin.com/in/hudabrilian/",
-  },
-  {
-    name: "Github",
-    url: "https://github.com/hudabrilian",
-  },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/hudabrilian",
-  },
-];
+import { links } from "./constants";
 
 export default function App() {
   return (
@@ -49,7 +27,7 @@ export default function App() {
           ))}
         </div>
         <div className="text-sm text-gray-400 cursor-default my-5">
-          &copy; 2022 Briel.
+          &copy; {new Date().getFullYear()} Briel.
         </div>
       </div>
     </div>
